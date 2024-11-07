@@ -11,15 +11,29 @@ int main(){
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
      int cod = 10;
-     //char nome[25] = 'Brasil';
-     float população = 480000;
+     char nome[25] = "Brasil";
+     float pop = 480.000;
      int area = 360;
      double pib = 3682.000;
      int turismo = 25;
 
      printf("Digite o código da cidade\n");
-     //scanf("%d", &cod);
-    // printf("Codigo da cidade é,%d\n");
+     scanf("%d", &cod);
+     printf("Digite o nome da cidade\n");
+     scanf("%s", &nome);
+     printf("Qual é a população\n");
+     scanf("%f", &pop);
+     printf("Qual a área\n");
+     scanf("%f", &area);
+     printf("Digite o PIB\n");
+     scanf("%f", &pib);
+     printf("Quantos pontos turísticos");
+     scanf("%d", &turismo)
+
+     
+     
+     
+     //printf("cód da cidade é:%d\n", cod);
 
 
     // Cadastro das Cartas:
