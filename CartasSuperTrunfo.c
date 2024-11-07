@@ -11,11 +11,12 @@ int main(){
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
      int cod = 10;
-     char nome[25] = "Brasil";
+     //char nome[20] = "Brasil";
      float pop = 480.000;
      int area = 360;
      double pib = 3682.000;
      int turismo = 25;
+     char nome[20] = "Wagner"
 
      printf("Digite o código da cidade\n");
      scanf("%d", &cod);
@@ -44,5 +45,5 @@ int main(){
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    //return 0;
+    return 0;
 }
