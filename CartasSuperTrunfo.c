@@ -34,7 +34,7 @@ int main(){
      
      
      
-     //printf("cód da cidade é:%d\n", cod);
+     printf("cód da cidade é:%d\n", cod);
 
 
     // Cadastro das Cartas:
