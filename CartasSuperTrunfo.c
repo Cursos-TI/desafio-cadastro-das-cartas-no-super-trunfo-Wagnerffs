@@ -9,11 +9,11 @@ int main(){
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
       
       
-    //criação as variáveis
+    //criação das variáveis
     int cod = 25;
-    float pop = 361.73;
+    int pop = 360;
     int area = 360;
-    double pib = 361.123;
+    float pib = 36.5;
     int turismo = 25;
     char nome[50] = "parana";
 
@@ -33,7 +33,7 @@ int main(){
     scanf("%s", &nome);
 
     printf("Qual é a população\n");
-    scanf("%f", &pop);
+    scanf("%d", &pop);
 
     printf("Qual é a área\n");
     scanf("%d", &area);
@@ -51,11 +51,11 @@ int main(){
 
 
     //Exibição dos dados
-    printf("O cód da cidade é: %d\n", cod);
+    printf("O código da cidade é: %d\n", cod);
     printf("O nome da cidade é: %s\n", nome);
-    printf("A população é: %f\n", pop);
-    printf("A área é: %d\n", area);
-    printf("O PIB é: %f\n", pib);    
+    printf("A população é de: %d milhões\n", pop);
+    printf("A área é: %d km2\n", area);
+    printf("O PIB é: %f per capita\n", pib);    
     printf("A qtde de pontos tuirísticos: %d\n", turismo);
 
     return 0;
