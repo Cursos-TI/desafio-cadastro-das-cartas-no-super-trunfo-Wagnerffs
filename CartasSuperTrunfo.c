@@ -55,7 +55,7 @@ int main(){
     printf("O nome da cidade é: %s\n", nome);
     printf("A população é de: %d milhões\n", pop);
     printf("A área é: %d km2\n", area);
-    printf("O PIB é: %f per capita\n", pib);    
+    printf("O PIB é: %.3f\n", pib);    
     printf("A qtde de pontos tuirísticos: %d\n", turismo);
 
     return 0;
