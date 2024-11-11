@@ -11,11 +11,11 @@ int main(){
       
     //criação das variáveis;
     int cod = 25;
-    int pop = 360.33;
+    int pop = 360;
     float area = 360.123;
     float pib = 365.321;
     double densidade = 366.852; //população dividido pela area;
-    float pibpc = 365.321
+    float pibpc = 365.321; //pib pela população;
     int turismo = 25;
     char nome[50] = "parana";
 
@@ -46,7 +46,7 @@ int main(){
     printf("Quantos pontos turísticos\n");
     scanf("%d", &turismo);
 
-    densidade = pop / area;
+    densidade =  pop / area;
     pibpc = pib / pop;
 
     
